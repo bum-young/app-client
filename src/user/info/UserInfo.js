@@ -2,11 +2,6 @@ import React, {Component} from 'react';
 import { Button } from 'antd';
 
 class UserInfo extends Component {
-
-    constructor(props) {
-        super(props);
-    }
-
     render(){
         return(
             <div>

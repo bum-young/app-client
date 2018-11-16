@@ -11,7 +11,7 @@ export function getAvatarColor(name) {
     name = name.substr(0, 6);
 
     let hash = 0;
-    for(let i = 0; i < name.length; i++) {
+    for (let i = 0; i < name.length; i++) {
         hash = 31 * hash + name.charCodeAt(i);
     }
 
