@@ -120,7 +120,7 @@ class Signup extends Component {
                            type="email"
                            autoComplete="off"
                            placeholder="Your email"
-                           value={this.state.name.value}
+                           value={this.state.email.value}
                            onBlur={this.validateEmailAvailability}
                            onChange={(event) => this.handleInputChange(event, this.validateEmail)}
                        />
